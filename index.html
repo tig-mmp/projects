@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            padding: 1em;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .project {
+            width: 30%;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .project img {
+            width: 100%;
+        }
+
+        .project .project-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: skyblue;
+            width: 100%;
+            font-weight: bold;
+            text-shadow: 3px 3px 3px rgb(0 0 0);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="project">
+                <a href="https://git.tiago-pinto.pt" target="_blank">
+                    <img src="./images/git.png" alt="Git">
+                    <div class="project-text">Git</div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://time.tiago-pinto.pt" target="_blank">
+                    <img src="./images/time.png" alt="Time">
+                    <div class="project-text">Time</div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://miota.tiago-pinto.pt" target="_blank">
+                    <img src="./images/moita.png" alt=Moita">
+                    <div class="project-text">Moita</div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://admin.tiago-pinto.pt" target="_blank">
+                    <img src="./images/back-office.png" alt=BackOffice">
+                    <div class="project-text">Back Office</div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
